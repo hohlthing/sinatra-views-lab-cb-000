@@ -4,9 +4,6 @@
       <title>Sinatra Views Lab II</title>
   </head>
   <body>
-    <p>The date is Wednesday, November 18, 2015
-
-    </p>
-    <p><%= "The date is " + Date.today.strftime(%A, %B %d, %Y) %></p>
+    <p>The date is <%= Date.today.strftime(%A, %B %d, %Y) %></p>
   </body>
 </html>
